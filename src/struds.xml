@@ -4,12 +4,11 @@
     "http://struts.apache.org/dtds/struts-2.3.dtd">
  
 <struts>
-    <package name="struds2welcome" extends="struts-default">		
+	<constant name="struts.devMode" value="true" />
+    <package name="zoho" namespace="/zoho" extends="struts-default">
 		
-        <action name="index">
-            <result>/index.jsp</result>
-        </action>
-     
-        
+		<action name="validate">
+			<result>/Welcome.jsp</result>
+		</action>
     </package>
 </struts>
