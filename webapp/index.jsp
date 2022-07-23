@@ -9,10 +9,10 @@
 </head>
 <body>
 <h1>Zoho Corp</h1>
-<s:form action="zoho/validate">
+<s:form action="validate">
 
-<s:textfield name="uname" label="Enter Name"/><br>
-<s:password name="password" label="Enter pin"/><br>
+<s:textfield name="uname" label="Enter Name" value="Surya"/><br>
+<s:password name="password" label="Enter pin" value="1234"/><br>
 
 <s:submit value="Login" align="center"/>
 
