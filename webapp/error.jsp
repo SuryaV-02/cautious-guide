@@ -1,3 +1,5 @@
+<%@ taglib prefix="s" uri="/struts-tags"%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -9,7 +11,12 @@
 <body>
 
 <h1>Zoho Corp</h1>
-<h4>Seems like you haven't imported to Zoho yet..</h4><br>
-<h5>Contact admin@zohocorp.com if it was a mistake</h5>
+<h4>Sorry, we can't get you!</h4>
+
+<s:form action="raiseRequest.jsp">
+<input type="submit" value="Raise request" />
+</s:form>
+
+<br>
 </body>
 </html>

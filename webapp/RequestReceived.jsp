@@ -5,14 +5,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Welcome</title>
+<title>Insert title here</title>
 </head>
 <body>
+
 <h1>Zoho Corp</h1>
-<h4>Welcome <s:property value="uname"/> </h4>
-<h5>We're glad to have you back!</h5>
-<s:form action="Dashboard.jsp">
-<input type="submit" value="Dashboard" />
-</s:form>
+<h4>We've received your request. Will get back to you shortly..</h4>
 </body>
 </html>

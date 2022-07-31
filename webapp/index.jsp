@@ -11,8 +11,8 @@
 <h1>Zoho Corp</h1>
 <s:form action="validate">
 
-<s:textfield name="uname" label="Enter Name" value="Surya"/><br>
-<s:password name="password" label="Enter pin" value="1234"/><br>
+<s:textfield name="uname" label="Enter Name" required/><br>
+<s:password name="password" label="Enter pin" required/><br>
 
 <s:submit value="Login" align="center"/>
 

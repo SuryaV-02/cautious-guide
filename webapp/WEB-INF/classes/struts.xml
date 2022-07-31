@@ -10,5 +10,9 @@
 			<result name= "SUCCESS">/Welcome.jsp</result>
 			<result name= "FAILED">/error.jsp</result>
 		</action>
+		<action name="raiseRequest" class="zoho.RaiseRequest" method="execute">
+			<result name= "SUCCESS">/RequestReceived.jsp</result>
+			<result name= "FAILURE">/RequestFailed.jsp</result>
+		</action>
     </package>
 </struts>
